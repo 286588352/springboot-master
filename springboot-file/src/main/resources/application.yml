@@ -1,0 +1,13 @@
+# 配置服务端口
+server:
+  port: 8018
+
+spring:
+  servlet:
+    multipart:
+      # Spring Boot中有默认的文件上传组件，在使用ServletFileUpload时需要关闭Spring Boot的默认配置
+      enabled: false
+      # 设置单个文件大小
+      max-file-size: 1GB
+      # 设置单次请求文件的总大小
+      max-request-size: 10GB

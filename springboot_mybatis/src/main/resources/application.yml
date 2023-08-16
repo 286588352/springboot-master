@@ -1,0 +1,23 @@
+# 配置端口
+server:
+  port: 8091
+
+spring:
+  # 配置数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# mybatis相关配置
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml   #指定mapper映射文件路径
+  type-aliases-package: com.liyh.mybatis.entity  # 别名
+  configuration:
+    map-underscore-to-camel-case: true
+
+#打印sql，保存到文件
+logging:
+  level:
+    com.liyh.mybatis.mapper: debug

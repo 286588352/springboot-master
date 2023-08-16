@@ -1,0 +1,51 @@
+alt+shift+s  以及 alt+inster 实现自动生成get set  以及构造方法
+
+ctrl+d 删除一行
+
+ctrl+shift+o 导入包
+
+ctrl+shift+f 代码格式化
+
+ctrl+shift+y 转换大小写
+
+ctrl+f  查找（当前文件）
+
+ctrl+h 全局查找
+
+双击shift 查找文件
+
+tab  以及 shift+tab 整体代码向后 向前移动
+
+alt+/ 提示操作（自定义修改）
+
+alt+/这个快捷方式被其他地方占用了，所以先去掉；
+
+alt+shift+r 重命名参数和方法
+
+向下复制一行  ctrl+alt+向下键
+
+ctrl+/ 单行注释
+
+ctrl+shift+/ 多行注释
+
+alt+上下键  选中单行或者多行 向上或者向下移动
+
+ctrl+shift+t 查看源码 （当前java文件有的类，直接ctrl+点进去即可）
+
+alt+enter  生成返回值/纠错  eclipse是ctrl+1
+
+alt+左右方向键 跳转上一个或者下一个编辑页面
+
+ctrl+- 或者 ctrl+= 收缩或者展开单个方法
+
+ctrl+shift+-  或者 ctrl+shift+= 收缩全部或者展开全部方法  自定义配置
+
+ctrl+shift+h 查看方法重写结构
+
+ctrl+alt+h 查看方法调用者
+
+F4 选中类 查看类继承关系
+
+ctrl+o 查看类结构
+
+ctrl+Alt+shift+u 查看类结构关系图

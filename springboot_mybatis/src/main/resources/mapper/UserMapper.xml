@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liyh.mybatis.mapper.UserMapper">
+
+    <insert id="saveInfo">
+        insert into t_user
+        values (#{name}, #{gender}, #{username}, #{password}, #{remark})
+    </insert>
+
+    <insert id="saveList" parameterType="list">
+        insert into t_user values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.name}, #{item.gender}, #{item.username}, #{item.password}, #{item.remark})
+        </foreach>
+    </insert>
+
+
+</mapper>
